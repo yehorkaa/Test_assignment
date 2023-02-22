@@ -7,11 +7,11 @@ interface FooterProps {
   value: string | undefined;
 }
 
-const Footer: React.FC<FooterProps> = (props) => {
+const Footer: React.FC<FooterProps> = ({value = 'Feel free to choose a Chuck Norris quote :)'}) => {
   return (
     <div className="ChakWithWindow">
       <div className="window">
-        <p className="phrase">{props.value}</p>
+        <p className="phrase">{value}</p>
         <img src={Chak} alt={"Chak"}></img>
       </div>
     </div>
