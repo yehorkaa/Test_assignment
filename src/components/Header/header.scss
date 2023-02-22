@@ -1,0 +1,30 @@
+.chuckSection {
+  .container {
+    
+    .header {
+      width: 100%;
+      background: #422ed4;
+      min-height: 59px;
+      .chuckWithText {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 18px 8px 18px 160px;
+        .iconChuck {
+         
+        }
+
+        .ChuckText {
+          span {
+            font-style: normal;
+            font-weight: 800;
+            font-size: 16px;
+            line-height: 19px;
+
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+}

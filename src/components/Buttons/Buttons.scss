@@ -1,0 +1,37 @@
+.chuckSection {
+  width: 100%;
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    .DataCategoryButtons {
+      display: flex;
+      margin-top: 60px;
+      justify-content: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .button {
+      .button__button {
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 19px;
+        /* identical to box height */
+
+        text-align: center;
+
+        color: #1c1c39;
+        width: 170px;
+        padding: 19px 16px;
+        border: none;
+        filter: drop-shadow(0px 22px 80px rgba(72, 70, 106, 0.07))
+          drop-shadow(0px 2.75474px 10.0172px rgba(72, 70, 106, 0.035));
+        border-radius: 18px;
+        cursor: pointer;
+      }
+      .button__button:hover {
+        background: #422ed4;
+      }
+    }
+  }
+}
