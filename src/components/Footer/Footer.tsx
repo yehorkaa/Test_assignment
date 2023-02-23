@@ -7,7 +7,7 @@ interface FooterProps {
   value: string | undefined;
 }
 
-const Footer: React.FC<FooterProps> = ({value = 'Feel free to choose a Chuck Norris quote :)'}) => {
+const Footer: React.FC<FooterProps> = ({value = 'Feel free to choose Chuck Norris quote :)'}) => {
   return (
     <div className="ChakWithWindow">
       <div className="window">

@@ -34,15 +34,13 @@ const Buttons: React.FC = () => {
     }
   };
 
-  const elements = categories.map((item) => {
-    return (
+ const elements = categories.map((item: string) => (
       <div className="button" key={uuidv4()}>
         <button className="button__button" onClick={() => onHandleClick(item)}>
           {item}
         </button>
       </div>
-    );
-  });
+    ));
 
   return (
     <div className="DataCategoryButtons">
